@@ -1,0 +1,9 @@
+#mycanvas {
+  /* 因为margin:0 auto 只能让块级元素居中，而canvas标签默认是inline元素
+  所以要给它设置inline:block属性 */
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  background: pink;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
